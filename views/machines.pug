@@ -5,8 +5,8 @@ block content
   - var results = [{"MachineType":"Refrigerator","Capacity":1,"useType":"Domestic","Energy":"solar"},{"MachineType":"Washing Machine","Capacity":5,"useType":"Industrial","Energy":"Electrical"},{"MachineType":"Cutting Machine","Capacity":10,"useType":"Industrial","Energy":"Electrical"}];
   div(class="container-fluid")
     div(class="row")
-    each item in results
-      div(class="col-sm-2" width="215px") Machine Type:#{item.MachineType}, Capacity:#{item.Capacity}, useType:#{item.useType}, Energy:#{item.Energy}
+      each item in results
+        div(class="col-sm-2" width="215px") Machine Type:#{item.MachineType}, Capacity:#{item.Capacity}, useType:#{item.useType}, Energy:#{item.Energy}
   br
   div(class="container-fluid")
     div(class="row")
